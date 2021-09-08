@@ -1,0 +1,3 @@
+# Local-only Terraform assets
+**/.terraform
+**/.terraform.lock.hcl
