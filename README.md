@@ -4,6 +4,8 @@ Terraform project for ICT.
 
 ## Usage
 
+### First start
+
 * Clone this repository
 * Ensure the required modules are cloned in a parent `modules` directory:
 
@@ -19,3 +21,9 @@ Terraform project for ICT.
 ```
 
 * Initialize Terraform: `terraform init`
+
+### Day to day
+
+TO DO
+
+---
