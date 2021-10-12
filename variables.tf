@@ -5,10 +5,10 @@
 # Provider - vsphere
 # =============================================================================
 
-variable "vsphere_server" {
-  type    = string
-  default = "iaas-001-vcs01.vcloud"
-}
+# variable "vsphere_server" {
+#   type    = string
+#   default = "iaas-001-vcs01.vcloud"
+# }
 
 variable "vsphere_user" {
   type = string

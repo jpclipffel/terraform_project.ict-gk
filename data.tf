@@ -12,7 +12,7 @@ data "vsphere_datacenter" "default" {
 
 
 # =============================================================================
-# Provider - vsphere - Datastore
+# Provider - vsphere - Datastore clusters
 # =============================================================================
 
 # Default datastore cluster
@@ -20,6 +20,11 @@ data "vsphere_datastore_cluster" "default" {
   name          = "DATI : ICT"
   datacenter_id = data.vsphere_datacenter.default.id
 }
+
+
+# =============================================================================
+# Provider - vsphere - Datastores
+# =============================================================================
 
 # Kirchberg datastore 01
 data "vsphere_datastore" "kirchberg_01" {
